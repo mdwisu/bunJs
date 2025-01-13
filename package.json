@@ -2,6 +2,9 @@
   "name": "bunjs",
   "module": "index.tsx",
   "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "clean": "rm -rf dist && echo 'Done.'",
     "start": "bun run index.ts",

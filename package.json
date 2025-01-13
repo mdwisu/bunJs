@@ -2,10 +2,20 @@
   "name": "bunjs",
   "module": "index.tsx",
   "type": "module",
+  "scripts": {
+    "clean": "rm -rf dist && echo 'Done.'",
+    "start": "bun run index.ts",
+    "dev": "bun --watch run index.ts"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "^1.1.14",
+    "@types/figlet": "^1.7.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "figlet": "^1.8.0",
+    "react": "^19.0.0"
   }
 }

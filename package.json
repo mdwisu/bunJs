@@ -5,7 +5,9 @@
   "scripts": {
     "clean": "rm -rf dist && echo 'Done.'",
     "start": "bun run index.ts",
-    "dev": "bun --watch run index.ts"
+    "dev": "bun --watch run index.ts",
+    "test": "bun test",
+    "test:watch": "bun --watch test"
   },
   "devDependencies": {
     "@types/bun": "^1.1.14",

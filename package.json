@@ -14,13 +14,19 @@
   },
   "devDependencies": {
     "@types/bun": "^1.1.14",
-    "@types/figlet": "^1.7.0"
+    "@types/express": "^5.0.0",
+    "@types/figlet": "^1.7.0",
+    "prisma": "^6.2.1"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@prisma/client": "6.2.1",
+    "express": "^4.21.2",
     "figlet": "^1.8.0",
-    "react": "^19.0.0"
+    "react": "^19.0.0",
+    "winston": "^3.17.0",
+    "zod": "^3.24.1"
   }
 }
